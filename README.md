@@ -52,13 +52,13 @@ Train:
 ## Evaluating using test file(test.csv)
 
 ```
- python3 eval.py --eval_train --checkpoint_dir="./runs/1518605469/checkpoints/"
+ python3 eval.py --eval_train --checkpoint_dir="./runs/1518619812/checkpoints/"
 ```
 
 ## Evaluating using interactive session --allows you to type sentences
 
 ```
- python3 eval.py --interactive --checkpoint_dir="./runs/1518605469/checkpoints/"
+ python3 eval.py --interactive --checkpoint_dir="./runs/1518619812/checkpoints/"
 ```
 Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
 
